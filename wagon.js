@@ -26,12 +26,15 @@ class Wagon{
     }}
 
   totalFood(){
-      
-      for(passg = 0; pass < passengers.length; passg++){
-          return += passg[totalFood]
-      }
-
-  }
-
+      let tatalAmountOfFood = 0
+      for(let passg = 0; passg < this.passengers.length; passg++){
+        tatalAmountOfFood += this.passengers[passg].food
         
+    }
+    console.log(tatalAmountOfFood)
+    return  tatalAmountOfFood
+        
+    }
+    
+    
 }
